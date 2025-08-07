@@ -55,7 +55,7 @@
 ---
 
 ## 🔑 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗖𝗢𝗗𝗘 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥
-[![Generate Session](https://img.shields.io/badge/𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘_𝗦𝗘𝗦𝗦𝗜𝗢𝗡_𝗖𝗢𝗗𝗘-FF9900?style=for-the-badge)](https://elite-sessions-pair.onrender.com/)
+[![Generate Session](https://img.shields.io/badge/𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘_𝗦𝗘𝗦𝗦𝗜𝗢𝗡_𝗖𝗢𝗗𝗘-FF9900?style=for-the-badge)](https://elite-pair-095z.onrender.com/)
 
 ---
 
@@ -80,5 +80,6 @@
 ---
 
 > **⭐ 𝗦𝗧𝗔𝗥 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗜𝗙 𝗬𝗢𝗨 𝗟𝗜𝗞𝗘 𝗜𝗧!**
+
 
 
