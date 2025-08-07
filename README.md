@@ -62,7 +62,7 @@
 ## 📊 𝗚𝗜𝗧𝗛𝗨𝗕 𝗦𝗧𝗔𝗧𝗦
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mastertech-XD&repo=Mastertech&show_icons=true&theme=dark)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mastertech-XD)&layout=compact&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mastertech-XD&layout=compact&theme=dark)
 
 ---
 
@@ -80,4 +80,5 @@
 ---
 
 > **⭐ 𝗦𝗧𝗔𝗥 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗜𝗙 𝗬𝗢𝗨 𝗟𝗜𝗞𝗘 𝗜𝗧!**
+
 
