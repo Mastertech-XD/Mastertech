@@ -8,7 +8,7 @@ const settings = {
   commandMode: "public",
   description: "This is a bot for managing group commands and automating tasks.",
   version: "0.0.1",
-  menuImageUrl: "https://files.catbox.moe/rjrgn3.jpg",
+  menuImageUrl: "https://files.catbox.moe/v0bqc3.jpg",
 };
 
 module.exports = settings;
