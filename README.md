@@ -33,6 +33,9 @@
 ### 4️⃣ 𝗚𝗟𝗜𝗧𝗖𝗛 (𝗘𝗱𝗶𝘁 𝗢𝗻𝗹𝗶𝗻𝗲)
 [![Remix on Glitch](https://img.shields.io/badge/𝗥𝗘𝗠𝗜𝗫_𝗼𝗻_𝗚𝗟𝗜𝗧𝗖𝗛-3333FF?style=for-the-badge&logo=glitch)](https://glitch.com/edit/#!/import/github/Mastertech-XD/Mastertech)
 
+### 6️⃣ 𝗞𝗢𝗬𝗘𝗕 (𝗙𝗮𝘀𝘁 & 𝗚𝗹𝗼𝗯𝗮𝗹)
+[![Deploy on Koyeb](https://img.shields.io/badge/𝗗𝗘𝗣𝗟𝗢𝗬_𝗼𝗻_𝗞𝗢𝗬𝗘𝗕-121212?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com/deploy?type=git&repository=github.com/Mastertech-XD/Mastertech&branch=main&name=mastertech-md)
+
 
 ### 5️⃣ 𝗥𝗔𝗜𝗟𝗪𝗔𝗬 (𝗦𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀)
 [![Deploy on Railway](https://img.shields.io/badge/𝗗𝗘𝗣𝗟𝗢𝗬_𝗼𝗻_𝗥𝗔𝗜𝗟𝗪𝗔𝗬-0B1D3F?style=for-the-badge&logo=railway)](https://railway.app/new/template?template=https://github.com/mastertech-xd254/mastertech-xd)
@@ -80,6 +83,7 @@
 ---
 
 > **⭐ 𝗦𝗧𝗔𝗥 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗜𝗙 𝗬𝗢𝗨 𝗟𝗜𝗞𝗘 𝗜𝗧!**
+
 
 
 
