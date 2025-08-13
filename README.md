@@ -1,6 +1,6 @@
 ### 𝗠𝗔𝗦𝗧𝗘𝗥𝗧𝗘𝗖𝗛 𝗠𝗗 𝗕𝗢𝗧
 
-## ✅ 𝗧𝗛𝗘 𝗕𝗢𝗧 𝗜𝗦 𝟭𝟬𝟬% 𝗦𝗔𝗙𝗘 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨 💯
+## ✅ 𝗧𝗛𝗘 𝗕𝗢𝗧 𝗜𝗦 𝟭𝟬𝟬% 𝗦𝗔𝗙𝗘 💯
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=2000&color=8A2BE2&center=true&vCenter=true&width=815&height=60&lines=𝗠𝗔𝗦𝗧𝗘𝗥𝗧𝗘𝗖𝗛~𝗠𝗗+𝗠𝗔𝗦𝗧𝗘𝗥𝗧𝗘𝗖𝗛~𝗠𝗗+𝗠𝗔𝗦𝗧𝗘𝗥𝗧𝗘𝗖𝗛~𝗠𝗗+𝗠𝗔𝗦𝗧𝗘𝗥𝗧𝗘𝗖𝗛~𝗠𝗗)](https://git.io/typing-svg)
 
@@ -77,3 +77,4 @@
 
 > **⭐ 𝗦𝗧𝗔𝗥 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗜𝗙 𝗬𝗢𝗨 𝗟𝗜𝗞𝗘 𝗜𝗧!**  
 > **🍴 𝗙𝗢𝗥𝗞 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗧𝗢 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗢𝗪𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡!**
+
