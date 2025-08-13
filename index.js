@@ -1,13 +1,13 @@
 /**
- * MASTERTECH-XD Bot - A WhatsApp Bot
- * Copyright (c) 2024 Masterpeace elite
+ * Mastertech-XD - A WhatsApp Bot
+ * Copyright (c) 2025 Masterpeace Elite
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the MIT License.
  * 
  * Credits:
  * - Baileys Library by @adiwajshing
- * - Pair Code implementation inspired by Masterpeace Elite
+ * - Pair Code implementation inspired by TechGod143 & DGXEON
  */
 require('./settings')
 const { Boom } = require('@hapi/boom')
@@ -80,10 +80,10 @@ const store = {
     }
 }
 
-let phoneNumber = "254743727510"
+let phoneNumber = "911234567890"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "MASTERTECH-XD BOT"
+global.botname = "MASTERTECH-XD"
 global.themeemoji = "•"
 
 const settings = require('./settings')
@@ -154,8 +154,8 @@ async function startXeonBotInc() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363161513685998@newsletter',
-                                newsletterName: 'ELITE-XD',
+                                newsletterJid: '120363393631540851@newsletter',
+                                newsletterName: 'Mastertech-XD',
                                 serverMessageId: -1
                             }
                         }
@@ -213,7 +213,7 @@ async function startXeonBotInc() {
         if (!!global.phoneNumber) {
             phoneNumber = global.phoneNumber
         } else {
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 2547437******* (without + or spaces) : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 6281376552730 (without + or spaces) : `)))
         }
 
         // Clean the phone number - remove any non-digit characters
@@ -254,20 +254,20 @@ async function startXeonBotInc() {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'ELITE-XD',
+                        newsletterJid: '120363393631540851@newsletter',
+                        newsletterName: 'Mastertech-XD',
                         serverMessageId: -1
                     }
                 }
             });
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'MASTERTECH-XD BOT'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'MASTERTECH-XD'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: MASTERTECH`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: Mastertech-XD`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: Mastertech`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: masterpeace elite`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: MASTERTECH TEAM`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: MASTERPEACE ELITE`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
         }
         if (
