@@ -36,8 +36,8 @@ async function stickerCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'ELITE-XD',
+                    newsletterJid: '120363393631540851@newsletter',
+                    newsletterName: 'Mastertech-XD',
                     serverMessageId: -1
                 }
             }
@@ -58,8 +58,8 @@ async function stickerCommand(sock, chatId, message) {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'ELITE-XD',
+                        newsletterJid: '120363393631540851@newsletter',
+                        newsletterName: 'Mastertech-XD',
                         serverMessageId: -1
                     }
                 }
@@ -109,7 +109,7 @@ async function stickerCommand(sock, chatId, message) {
         // Create metadata
         const json = {
             'sticker-pack-id': crypto.randomBytes(32).toString('hex'),
-            'sticker-pack-name': settings.packname || 'Mastertech-XD',
+            'sticker-pack-name': settings.packname || 'mastertech-xd',
             'emojis': ['🤖']
         };
 
@@ -146,8 +146,8 @@ async function stickerCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'ELITE-XD',
+                    newsletterJid: '120363393631540851@newsletter',
+                    newsletterName: 'Mastertech-XD',
                     serverMessageId: -1
                 }
             }

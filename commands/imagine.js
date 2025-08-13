@@ -32,7 +32,7 @@ async function imagineCommand(sock, chatId, message) {
         // Make API request
         const response = await axios.get(`https://api.shizo.top/ai/imagine/flux`, {
             params: {
-                apikey: 'MASTERTECH-XD', // Replace with your API key
+                apikey: 'mastertech-xd',
                 prompt: enhancedPrompt
             },
             responseType: 'arraybuffer'

@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 
 async function flirtCommand(sock, chatId, message) {
     try {
-        const shizokeys = 'mastertech-xd'; // Replace with your API key
+        const shizokeys = 'knightbot';
         const res = await fetch(`https://api.shizo.top/api/quote/flirt?apikey=${shizokeys}`);
         
         if (!res.ok) {

@@ -21,51 +21,28 @@ async function groupInfoCommand(sock, chatId, msg) {
 
         // Create info text
         const text = `
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃          🌟 *MASTERTECH-XD* 🌟         ┃
-┃           🚀 *GROUP ANALYSIS* 🚀        ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┌──「 *INFO GROUP* 」
+▢ *♻️ID:*
+   • ${groupMetadata.id}
+▢ *🔖NAME* : 
+• ${groupMetadata.subject}
+▢ *👥Members* :
+• ${participants.length}
+▢ *🤿Group Owner:*
+• @${owner.split('@')[0]}
+▢ *🕵🏻‍♂️Admins:*
+${listAdmin}
 
-🔮 *Basic Information:*
-├─ 🆔 *Group ID:* 
-│  └─ \`\`\`${groupMetadata.id}\`\`\`
-├─ 📛 *Group Name:* 
-│  └─ *${groupMetadata.subject}*
-├─ 📅 *Created:* 
-│  └─ ${new Date(groupMetadata.creation * 1000).toLocaleString()}
-├─ 📜 *Description:*
-│  └─ ${groupMetadata.desc?.toString() || 'No description'}
-
-👥 *Member Statistics:*
-├─ 🧑‍🤝‍🧑 *Total Members:* ${participants.length}
-├─ 👑 *Owner:* @${owner.split('@')[0]}
-├─ 🛡️ *Admins (${groupAdmins.length}):*
-│  └─ ${listAdmin.split(',').map(admin => `@${admin.split('@')[0]}`).join(', ')}
-
-📊 *Activity Insights:*
-├─ 💬 *Last Message:* 
-│  └─ ${groupMetadata.lastMsgTime ? new Date(groupMetadata.lastMsgTime * 1000).toLocaleString() : 'N/A'}
-├─ 🔔 *Announcement:* 
-│  └─ ${groupMetadata.announce ? '✅ Enabled' : '❌ Disabled'}
-└─ 🔒 *Restricted:* 
-   └─ ${groupMetadata.restrict ? '✅ Yes' : '❌ No'}
-
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  *🔍 Powered by MASTERTECH-XD v1.0.0*  ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+▢ *📌Description* :
+   • ${groupMetadata.desc?.toString() || 'No description'}
 `.trim();
 
-// Send with premium styling
-await sock.sendMessage(chatId, {
-    image: { url: pp },
-    caption: text,
-    mentions: [...groupAdmins.map(v => v.id), owner],
-    contextInfo: {
-        forwardingScore: 999,
-        isForwarded: false
-    }
-});
-
+        // Send the message with image and mentions
+        await sock.sendMessage(chatId, {
+            image: { url: pp },
+            caption: text,
+            mentions: [...groupAdmins.map(v => v.id), owner]
+        });
 
     } catch (error) {
         console.error('Error in groupinfo command:', error);

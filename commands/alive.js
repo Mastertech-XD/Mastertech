@@ -1,7 +1,7 @@
 const settings = require("../settings");
 async function aliveCommand(sock, chatId, message) {
     try {
-        const message1 = `*🤖 MASTERTECH-XD is Active!*\n\n` +
+        const message1 = `*🤖 Mastertech-XD is Active!*\n\n` +
                        `*Version:* ${settings.version}\n` +
                        `*Status:* Online\n` +
                        `*Mode:* Public\n\n` +
@@ -18,8 +18,8 @@ async function aliveCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'ELITE-XD',
+                    newsletterJid: '120363393631540851@newsletter',
+                    newsletterName: 'Mastertech-XD',
                     serverMessageId: -1
                 }
             }

@@ -78,7 +78,7 @@ async function videoCommand(sock, chatId, message) {
                 video: { url: videoDownloadUrl },
                 mimetype: 'video/mp4',
                 fileName: filename,
-                caption: `*${title}*\n\n> *_Downloaded by Knight Bot MD_*`
+                caption: `*${title}*\n\n> *_Downloaded By Mastertech-XD_*`
             }, { quoted: message });
             return;
         } catch (directSendErr) {
@@ -160,7 +160,7 @@ async function videoCommand(sock, chatId, message) {
                     video: { url: convertedFile },
                     mimetype: 'video/mp4',
                     fileName: filename,
-                    caption: `*${title}*\n\n> *_Downloaded by Knight Bot MD_*`
+                    caption: `*${title}*\n\n> *_Downloaded By Mastertech-XD_*`
                 }, { quoted: message });
             } catch (sendErr) {
                 console.log('[video.js] Send by url failed, trying buffer:', sendErr.message);
@@ -169,7 +169,7 @@ async function videoCommand(sock, chatId, message) {
                     video: videoBuffer,
                     mimetype: 'video/mp4',
                     fileName: filename,
-                    caption: `*${title}*\n\n> *_Downloaded by Knight Bot MD_*`
+                    caption: `*${title}*\n\n> *_Downloaded By Mastertech-XD_*`
                 }, { quoted: message });
             }
             
@@ -193,7 +193,7 @@ async function videoCommand(sock, chatId, message) {
                     video: { url: tempFile },
                     mimetype: 'video/mp4',
                     fileName: filename,
-                    caption: `*${title}*\n\n> *_Downloaded by Knight Bot MD_*`
+                    caption: `*${title}*\n\n> *_Downloaded By Mastertech-XD_*`
                 }, { quoted: message });
             } catch (sendErr2) {
                 console.log('[video.js] Send original by url failed, trying buffer:', sendErr2.message);
@@ -202,7 +202,7 @@ async function videoCommand(sock, chatId, message) {
                     video: videoBuffer,
                     mimetype: 'video/mp4',
                     fileName: filename,
-                    caption: `*${title}*\n\n> *_Downloaded by Knight Bot MD_*`
+                    caption: `*${title}*\n\n> *_Downloaded By Mastertech-XD_*`
                 }, { quoted: message });
             }
         }
