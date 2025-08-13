@@ -7,7 +7,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=2000&color=FF1493&center=true&vCenter=true&width=815&height=60&lines=𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗠𝗔𝗦𝗧𝗘𝗥𝗣𝗘𝗔𝗖𝗘~𝗘𝗟𝗜𝗧𝗘)](https://git.io/typing-svg)
 
 ---
-<p align="center"><img src="https://i.ibb.co/yBYGfQSH/file-000000006ab8622f84f751fde440202a.png" width="700" height="800"/></p>
+<p align="center"><img src="https://i.ibb.co/yBYGfQSH/file-000000006ab8622f84f751fde440202a.png" width="900" height="1000"/></p>
 ---
 
 ## 🟢 𝗕𝗢𝗧 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 & 𝗔𝗖𝗛𝗜𝗘𝗩𝗘𝗠𝗘𝗡𝗧𝗦
@@ -16,6 +16,12 @@
 - [x] 𝗚𝗿𝗼𝘂𝗽 𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗶𝗼𝗻 (Anti-Link/Toxic/Virus)
 - [x] 𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗿 (Img → WebP)
 - [x] 𝗠𝗲𝗱𝗶𝗮 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 (Telegram/YT)
+
+---
+
+## 📥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗢𝗣𝗧𝗜𝗢𝗡𝗦
+[![Fork Repo](https://img.shields.io/badge/𝗙𝗢𝗥𝗞_𝗥𝗘𝗣𝗢-181717?style=for-the-badge&logo=github)](https://github.com/Mastertech-XD/Mastertech/fork)
+[![Download ZIP](https://img.shields.io/badge/𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗_𝗭𝗜𝗣-181717?style=for-the-badge&logo=github)](https://github.com/Mastertech-XD/Mastertech/archive/refs/heads/main.zip)
 
 ---
 
@@ -33,27 +39,14 @@
 ### 4️⃣ 𝗚𝗟𝗜𝗧𝗖𝗛 (𝗘𝗱𝗶𝘁 𝗢𝗻𝗹𝗶𝗻𝗲)
 [![Remix on Glitch](https://img.shields.io/badge/𝗥𝗘𝗠𝗜𝗫_𝗼𝗻_𝗚𝗟𝗜𝗧𝗖𝗛-3333FF?style=for-the-badge&logo=glitch)](https://glitch.com/edit/#!/import/github/Mastertech-XD/Mastertech)
 
-### 6️⃣ 𝗞𝗢𝗬𝗘𝗕 (𝗙𝗮𝘀𝘁 & 𝗚𝗹𝗼𝗯𝗮𝗹)
+### 5️⃣ 𝗞𝗢𝗬𝗘𝗕 (𝗙𝗮𝘀𝘁 & 𝗚𝗹𝗼𝗯𝗮𝗹)
 [![Deploy on Koyeb](https://img.shields.io/badge/𝗗𝗘𝗣𝗟𝗢𝗬_𝗼𝗻_𝗞𝗢𝗬𝗘𝗕-121212?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com/deploy?type=git&repository=github.com/Mastertech-XD/Mastertech&branch=main&name=mastertech-md)
 
-
-### 5️⃣ 𝗥𝗔𝗜𝗟𝗪𝗔𝗬 (𝗦𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀)
+### 6️⃣ 𝗥𝗔𝗜𝗟𝗪𝗔𝗬 (𝗦𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀)
 [![Deploy on Railway](https://img.shields.io/badge/𝗗𝗘𝗣𝗟𝗢𝗬_𝗼𝗻_𝗥𝗔𝗜𝗟𝗪𝗔𝗬-0B1D3F?style=for-the-badge&logo=railway)](https://railway.app/new/template?template=https://github.com/mastertech-xd254/mastertech-xd)
 
-
-### 6️⃣ ������𝗠� (�𝗮��� ������)
-
-**Set up your MASTERTECH-XD BOT in minutes using Katabump Panel!**
-
+### 7️⃣ 𝗞𝗔𝗧𝗔𝗕𝗨𝗠𝗣 𝗣𝗔𝗡𝗘𝗟
 [![Katabump Panel](https://img.shields.io/badge/KATABUMP_PANEL-8A2BE2?style=for-the-badge&logo=server&logoColor=white)](https://dashboard.katabump.com/auth/login#203630)
-
-**Steps:**
-1. **Login** to [Katabump Panel](https://dashboard.katabump.com/auth/login#203630).
-2. **Connect** your GitHub repo.
-3. **Configure** environment variables.
-4. **Deploy** with a single click!
-
-> **Fast, Secure, and Free for MASTERTECH-XD BOT deployment.**
 
 ---
 
@@ -78,14 +71,9 @@
 
 ## 🧠 𝗖𝗥𝗘𝗗𝗜𝗧𝗦
 **Developed with ❤️ by:**  
-[![Masterpeace Elite](https://img.shields.io/badge/𝗠𝗔𝗦𝗧𝗘𝗥𝗣𝗘𝗔𝗖𝗘_𝗘𝗟𝗜𝗧𝗘-FF0000?style=for-the-badge)](https://github.com/Mastertech-XD/Mastertech)
+[![Masterpeace Elite](https://img.shields.io/badge/𝗠𝗔𝗦𝗧𝗘𝗥𝗣𝗘𝗔𝗖𝗘_𝗘𝗟𝗜𝗧𝗘-FF0000?style=for-the-badge)](https://github.com/Mastertech-XD)
 
 ---
 
-> **⭐ 𝗦𝗧𝗔𝗥 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗜𝗙 𝗬𝗢𝗨 𝗟𝗜𝗞𝗘 𝗜𝗧!**
-
-
-
-
-
-
+> **⭐ 𝗦𝗧𝗔𝗥 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗜𝗙 𝗬𝗢𝗨 𝗟𝗜𝗞𝗘 𝗜𝗧!**  
+> **🍴 𝗙𝗢𝗥𝗞 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗧𝗢 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗢𝗪𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡!**
