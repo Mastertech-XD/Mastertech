@@ -64,7 +64,8 @@ async function helpCommand(sock, chatId, message) {
 ┃ 🗑️ .clearsession       
 ┃ 🧹 .cleartmp
 ┃ 🔄 .autotyping <on/off>
-┃ 📡 .autostatus         
+┃ 📡 .autostatus    
+┃ ⚡ .autoread <on/off
 ┃ 💬 .autoreact
 ┃ 🛡️ .antidelete
 ┃ 🖼️ .setpp <reply img>
