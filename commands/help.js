@@ -50,7 +50,8 @@ async function helpCommand(sock, chatId, message) {
 ┃ 🤖 .chatbot            
 ┃ 👋 .welcome on/off 
 ┃ 📈 .promote @user
-┃ ⏳ .mute <mins> 🚪 .goodbye on/off
+┃ ⏳ .mute <mins> 🚪
+┃ 👋 .goodbye on/off
 ┃ 📋 .warnings @user
 ┃ 🔗 .antilink
 ┃ 🧹 .clear
@@ -61,7 +62,8 @@ async function helpCommand(sock, chatId, message) {
 ┏━🔒  OWNER
 ┃ ⚙️ .mode               
 ┃ 🗑️ .clearsession       
-┃ 🧹 .cleartmp  
+┃ 🧹 .cleartmp
+┃ 🔄 .autotyping <on/off>
 ┃ 📡 .autostatus         
 ┃ 💬 .autoreact
 ┃ 🛡️ .antidelete
@@ -145,7 +147,6 @@ async function helpCommand(sock, chatId, message) {
 ┃ 🗂️ .github
 ┃ 📜 .sc
 ┃ 💾 .script
-┃ 📦 .repo
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 ╭━━━〔 ⚡ POWERED BY 𝗠𝗔𝗦𝗧𝗘𝗥𝗧𝗘𝗖𝗛-𝗫𝗗 ⚡ 〕━━━╮
