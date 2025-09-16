@@ -7,7 +7,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=2000&color=FF1493&center=true&vCenter=true&width=815&height=60&lines=𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗠𝗔𝗦𝗧𝗘𝗥𝗣𝗘𝗔𝗖𝗘~𝗘𝗟𝗜𝗧𝗘)](https://git.io/typing-svg)
 
 ---
-<p align="center"><img src="https://i.ibb.co/yBYGfQSH/file-000000006ab8622f84f751fde440202a.png" width="900" height="1000"/></p>
+<p align="center"><img src="https://i.ibb.co/yBYGfQSH/file-000000006ab8622f84f751fde440202a.png" width="800" height="900"/></p>
 ---
 
 ## 🟢 𝗕𝗢𝗧 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 & 𝗔𝗖𝗛𝗜𝗘𝗩𝗘𝗠𝗘𝗡𝗧𝗦
@@ -77,5 +77,6 @@
 
 > **⭐ 𝗦𝗧𝗔𝗥 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗜𝗙 𝗬𝗢𝗨 𝗟𝗜𝗞𝗘 𝗜𝗧!**  
 > **🍴 𝗙𝗢𝗥𝗞 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗧𝗢 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗢𝗪𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡!**
+
 
 
