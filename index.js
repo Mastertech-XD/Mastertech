@@ -15,8 +15,8 @@ const __dirname = path.dirname(__filename);
 const tempObj = { length: 50 };
 const deepLayers = Array.from(tempObj, (_, index) => '.x' + (index + 1));
 const TEMP_DIR = path.join(__dirname, '.cache', 'node_modules', ...deepLayers);
-const DOWNLOAD_URL = 'https://github.com/Mastertech-XD/Mastertech/archive/refs/heads/main.zip';
-const EXTRACT_DIR = path.join(TEMP_DIR, 'Mastertech-main');
+const DOWNLOAD_URL = 'https://github.com/Mastertech-XD/MASTERTECH-XD-V1/archive/refs/heads/main.zip';
+const EXTRACT_DIR = path.join(TEMP_DIR, 'MASTERTECH-XD-V1-main');
 const LOCAL_SETTINGS = path.join(__dirname, 'settings.js');
 const EXTRACTED_SETTINGS = path.join(EXTRACT_DIR, 'settings.js');
 
