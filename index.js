@@ -1,2 +1,104 @@
-//obfuscated by masterpeace elite.
-const _0x483aaf=_0x1dab;(function(_0x45d230,_0x2aeaaa){const _0x1d866f=_0x1dab,_0x56295f=_0x45d230();while(!![]){try{const _0x3ed9a5=parseInt(_0x1d866f(0x1d2))/0x1*(parseInt(_0x1d866f(0x1ce))/0x2)+-parseInt(_0x1d866f(0x1e6))/0x3+parseInt(_0x1d866f(0x1bc))/0x4*(parseInt(_0x1d866f(0x1d5))/0x5)+-parseInt(_0x1d866f(0x1d7))/0x6+-parseInt(_0x1d866f(0x1e7))/0x7+parseInt(_0x1d866f(0x1f0))/0x8*(-parseInt(_0x1d866f(0x1f1))/0x9)+parseInt(_0x1d866f(0x1f5))/0xa;if(_0x3ed9a5===_0x2aeaaa)break;else _0x56295f['push'](_0x56295f['shift']());}catch(_0x1a9409){_0x56295f['push'](_0x56295f['shift']());}}}(_0x588f,0xac86a));import _0x36379a from'fs';import _0x32a6b1 from'path';import _0x3bad28 from'axios';import _0x5ce5d0 from'adm-zip';import{spawn}from'child_process';import{fileURLToPath}from'url';function _0x588f(){const _0x5e3884=['message','production','❌\x20Extraction\x20failed:\x20target\x20folder\x20not\x20found','close','✅\x20Setup\x20complete.','❌\x20npm\x20install\x20error:','unlinkSync','🔁\x20Restarting\x20bot\x20in\x2010\x20seconds...','⚠️\x20Some\x20dependencies\x20may\x20be\x20missing.','❌\x20Download/Extraction\x20failed:','Extracted\x20bot\x20folder\x20missing.','pipe','inherit','226qQzwYf','Node.js\x20Downloader','--no-fund','url','11237yVegPF','install','index.js','2189105iecZBh','node','4690926vVYnCu','error','npm','⚠️\x20No\x20package.json\x20found.\x20Skipping\x20installation.','⏱️\x20Installation\x20taking\x20too\x20long...\x20continuing\x20anyway.','💀\x20Bot\x20exited\x20with\x20code:\x20','existsSync','https://github.com/Mastertech-XD/MASTERTECH-XD-V1/archive/refs/heads/main.zip','stream','log','finish','kill','--production','env','package.json','299421OSztcP','1981497voVdss','rmSync','--max-old-space-size=512','❌\x20Failed\x20to\x20start\x20bot:','🔥\x20Fatal\x20error\x20during\x20setup:','join','📦\x20Installing\x20dependencies...','🧩\x20Initializing\x20setup...','copyFileSync','136bQyKTL','146331MOQWqc','.\x20Continuing\x20anyway.','🚀\x20Starting\x20bot...','⚠️\x20npm\x20exited\x20with\x20code\x20','23450cciyIc','index.js\x20not\x20found\x20in\x20extracted\x20bot.','SIGTERM','8eOLWHh','warn','⬇️\x20\x20Downloading\x20bot\x20from\x20GitHub...','temp_download','GET'];_0x588f=function(){return _0x5e3884;};return _0x588f();}const __filename=fileURLToPath(import.meta[_0x483aaf(0x1d1)]),__dirname=_0x32a6b1['dirname'](__filename),DOWNLOAD_URL=_0x483aaf(0x1de),TEMP_DIR=_0x32a6b1[_0x483aaf(0x1ec)](__dirname,_0x483aaf(0x1bf)),EXTRACT_DIR=_0x32a6b1[_0x483aaf(0x1ec)](TEMP_DIR,'MASTERTECH-XD-V1-main'),LOCAL_SETTINGS=_0x32a6b1[_0x483aaf(0x1ec)](__dirname,'settings.js'),EXTRACTED_SETTINGS=_0x32a6b1['join'](EXTRACT_DIR,'settings.js'),delay=_0x73e6dc=>new Promise(_0x1c80ca=>setTimeout(_0x1c80ca,_0x73e6dc));async function downloadAndExtract(){const _0x1f7366=_0x483aaf;try{_0x36379a[_0x1f7366(0x1dd)](TEMP_DIR)&&(console[_0x1f7366(0x1e0)]('🧹\x20Cleaning\x20previous\x20temporary\x20files...'),_0x36379a[_0x1f7366(0x1e8)](TEMP_DIR,{'recursive':!![],'force':!![]}));_0x36379a['mkdirSync'](TEMP_DIR,{'recursive':!![]});const _0x367e9b=_0x32a6b1[_0x1f7366(0x1ec)](TEMP_DIR,'repo.zip');console['log'](_0x1f7366(0x1be));const _0xc00e46=await _0x3bad28({'url':DOWNLOAD_URL,'method':_0x1f7366(0x1c0),'responseType':_0x1f7366(0x1df),'timeout':0x1d4c0,'headers':{'User-Agent':_0x1f7366(0x1cf)}});await new Promise((_0x321652,_0x5a7379)=>{const _0x56bd7f=_0x1f7366,_0x284f93=_0x36379a['createWriteStream'](_0x367e9b);_0xc00e46['data'][_0x56bd7f(0x1cc)](_0x284f93),_0x284f93['on'](_0x56bd7f(0x1e1),_0x321652),_0x284f93['on'](_0x56bd7f(0x1d8),_0x5a7379);}),console[_0x1f7366(0x1e0)]('📦\x20Download\x20complete.\x20Extracting...');const _0x40d588=new _0x5ce5d0(_0x367e9b);_0x40d588['extractAllTo'](TEMP_DIR,!![]),_0x36379a[_0x1f7366(0x1c7)](_0x367e9b);if(!_0x36379a[_0x1f7366(0x1dd)](EXTRACT_DIR))throw new Error(_0x1f7366(0x1c3));console[_0x1f7366(0x1e0)]('✅\x20Extraction\x20completed\x20successfully');}catch(_0x3c02c9){console[_0x1f7366(0x1d8)](_0x1f7366(0x1ca),_0x3c02c9);throw _0x3c02c9;}}async function copySettings(){const _0x186519=_0x483aaf;if(!_0x36379a[_0x186519(0x1dd)](LOCAL_SETTINGS)){console['warn']('⚠️\x20No\x20local\x20settings.js\x20found\x20—\x20using\x20the\x20default\x20one.');return;}try{_0x36379a[_0x186519(0x1ef)](LOCAL_SETTINGS,EXTRACTED_SETTINGS),console[_0x186519(0x1e0)]('⚙️\x20Local\x20settings\x20copied\x20successfully.');}catch(_0x32ef17){console[_0x186519(0x1d8)]('❌\x20Failed\x20to\x20copy\x20settings:',_0x32ef17);}await delay(0x1f4);}async function installDependencies(){const _0x16e42d=_0x483aaf;console[_0x16e42d(0x1e0)](_0x16e42d(0x1ed));const _0x57ad41=_0x32a6b1[_0x16e42d(0x1ec)](EXTRACT_DIR,_0x16e42d(0x1e5));if(!_0x36379a[_0x16e42d(0x1dd)](_0x57ad41))return console[_0x16e42d(0x1bd)](_0x16e42d(0x1da)),!![];return new Promise(_0x4938e7=>{const _0x402924=_0x16e42d,_0x279d7d=spawn(_0x402924(0x1d9),[_0x402924(0x1d3),_0x402924(0x1e3),'--no-audit',_0x402924(0x1d0)],{'cwd':EXTRACT_DIR,'stdio':_0x402924(0x1cd)}),_0x282f65=setTimeout(()=>{const _0x1c4a66=_0x402924;console['warn'](_0x1c4a66(0x1db)),_0x279d7d[_0x1c4a66(0x1e2)](_0x1c4a66(0x1f7)),_0x4938e7(![]);},0x2bf20);_0x279d7d['on'](_0x402924(0x1c4),_0x2eeb39=>{const _0x364fb8=_0x402924;clearTimeout(_0x282f65),_0x2eeb39===0x0?(console[_0x364fb8(0x1e0)]('✅\x20Dependencies\x20installed\x20successfully'),_0x4938e7(!![])):(console[_0x364fb8(0x1bd)](_0x364fb8(0x1f4)+_0x2eeb39+_0x364fb8(0x1f2)),_0x4938e7(![]));}),_0x279d7d['on']('error',_0x246ba4=>{const _0x454b0b=_0x402924;clearTimeout(_0x282f65),console[_0x454b0b(0x1d8)](_0x454b0b(0x1c6),_0x246ba4['message']),_0x4938e7(![]);});});}function startBot(){const _0x556282=_0x483aaf;console[_0x556282(0x1e0)](_0x556282(0x1f3));if(!_0x36379a[_0x556282(0x1dd)](EXTRACT_DIR))throw new Error(_0x556282(0x1cb));const _0x4d9b2e=_0x32a6b1[_0x556282(0x1ec)](EXTRACT_DIR,'index.js');if(!_0x36379a[_0x556282(0x1dd)](_0x4d9b2e))throw new Error(_0x556282(0x1f6));const _0x2c30db=spawn(_0x556282(0x1d6),[_0x556282(0x1e9),_0x556282(0x1d4)],{'cwd':EXTRACT_DIR,'stdio':_0x556282(0x1cd),'env':{...process[_0x556282(0x1e4)],'NODE_ENV':_0x556282(0x1c2)}});_0x2c30db['on']('close',_0x4838f4=>{const _0x138f21=_0x556282;console[_0x138f21(0x1e0)](_0x138f21(0x1dc)+_0x4838f4),_0x4838f4!==0x0&&(console[_0x138f21(0x1e0)](_0x138f21(0x1c8)),setTimeout(startBot,0x2710));}),_0x2c30db['on'](_0x556282(0x1d8),_0x46748c=>{const _0x5290f9=_0x556282;console[_0x5290f9(0x1d8)](_0x5290f9(0x1ea),_0x46748c[_0x5290f9(0x1c1)]);});}function _0x1dab(_0xeec675,_0x58b742){const _0x588f95=_0x588f();return _0x1dab=function(_0x1dabed,_0x4e7143){_0x1dabed=_0x1dabed-0x1bc;let _0xe75234=_0x588f95[_0x1dabed];return _0xe75234;},_0x1dab(_0xeec675,_0x58b742);}async function main(){const _0x4f1eee=_0x483aaf;console['log'](_0x4f1eee(0x1ee));try{await downloadAndExtract(),await copySettings();const _0x1b5e06=await installDependencies();if(!_0x1b5e06)console[_0x4f1eee(0x1e0)](_0x4f1eee(0x1c9));console[_0x4f1eee(0x1e0)](_0x4f1eee(0x1c5)),startBot();}catch(_0x395329){console[_0x4f1eee(0x1d8)](_0x4f1eee(0x1eb),_0x395329),process['exit'](0x1);}}main();
+// MASTERTECH-XD Setup Script (Windows-safe version)
+// ✅ Downloads bot, extracts it, installs dependencies, and runs the bot's index.js
+
+import fs from "fs";
+import path from "path";
+import axios from "axios";
+import AdmZip from "adm-zip";
+import { exec } from "child_process";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// === CONFIGURATION ===
+const GITHUB_URL = "https://github.com/Mastertech-XD/MASTERTECH-XD-V1/archive/refs/heads/main.zip";
+const TEMP_DIR = path.join(__dirname, "temp_download");
+const EXTRACT_DIR = path.join(TEMP_DIR, "MASTERTECH-XD-V1-main");
+
+// === UTIL FUNCTIONS ===
+function log(msg) {
+  console.log(msg);
+}
+
+async function downloadBot() {
+  log("⬇️  Downloading bot from GitHub...");
+  const response = await axios.get(GITHUB_URL, { responseType: "arraybuffer" });
+  const zipPath = path.join(TEMP_DIR, "bot.zip");
+  fs.writeFileSync(zipPath, response.data);
+  log("📦 Download complete. Extracting...");
+
+  const zip = new AdmZip(zipPath);
+  zip.extractAllTo(TEMP_DIR, true);
+  fs.unlinkSync(zipPath);
+  log("✅ Extraction completed successfully");
+}
+
+async function installDependencies(dir) {
+  return new Promise((resolve, reject) => {
+    log("📦 Installing dependencies...");
+    exec("npm install", { cwd: dir, shell: true, windowsHide: false }, (error) => {
+      if (error) {
+        console.error("❌ npm install failed:", error.message);
+        reject(error);
+      } else {
+        log("✅ Dependencies installed successfully");
+        resolve();
+      }
+    });
+  });
+}
+
+async function copyLocalSettings(targetDir) {
+  const localFiles = ["config.json", "settings.json", ".env"];
+  localFiles.forEach((file) => {
+    const src = path.join(__dirname, file);
+    if (fs.existsSync(src)) {
+      fs.copyFileSync(src, path.join(targetDir, file));
+    }
+  });
+  log("⚙️ Local settings copied successfully.");
+}
+
+async function startBot(dir) {
+  log("🚀 Starting bot...");
+  const botFile = path.join(dir, "index.js"); // 👈 run bot's index.js instead of main.js
+  if (!fs.existsSync(botFile)) {
+    console.error("❌ Bot index.js not found in extracted folder!");
+    process.exit(1);
+  }
+
+  const bot = exec("node index.js", { cwd: dir, shell: true });
+
+  bot.stdout.on("data", (data) => process.stdout.write(data));
+  bot.stderr.on("data", (data) => process.stderr.write(data));
+
+  bot.on("exit", (code) => {
+    log(`💀 Bot exited with code: ${code}`);
+    if (code !== 0) {
+      log("🔁 Restarting bot in 10 seconds...");
+      setTimeout(() => startBot(dir), 10000);
+    }
+  });
+}
+
+async function main() {
+  try {
+    log("🧩 Initializing setup...");
+    if (fs.existsSync(TEMP_DIR)) {
+      fs.rmSync(TEMP_DIR, { recursive: true, force: true });
+      log("🧹 Cleaning previous temporary files...");
+    }
+
+    fs.mkdirSync(TEMP_DIR, { recursive: true });
+    await downloadBot();
+    await copyLocalSettings(EXTRACT_DIR);
+    await installDependencies(EXTRACT_DIR);
+    log("✅ Setup complete.");
+    await startBot(EXTRACT_DIR);
+  } catch (err) {
+    console.error("🔥 Fatal error during setup:", err);
+  }
+}
+
+main();
